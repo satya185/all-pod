@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: maha-rc
 spec:
-  replicas: 100
+  replicas: 5
   selector:
     app: mynginx
   template:
